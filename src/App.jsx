@@ -48,7 +48,7 @@ export class App extends React.Component {
    
     return (
       <>
-        <h1>Phonebook</h1>
+        <h1 style={{fontSize: '24px', color: 'blue', textAlign: 'center' }}>Phonebook</h1>
         <Contactform  onAddContact={this.onAddContact}/>
         <h2>Contacts</h2>
 
